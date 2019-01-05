@@ -22,7 +22,6 @@
         android:layout_centerHorizontal="true"
         android:text="Generate"
         android:background="#EE9B43"
-        android:onClick="EditorInfo.IME_ACTION_DONE"
         android:id="@+id/gen_btn"/>
 
     <View
