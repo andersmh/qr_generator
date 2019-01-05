@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:hint="Your text here..."
+        android:maxLines="1"
         android:id="@+id/text"/>
 
     <Button
@@ -20,6 +21,8 @@
         android:layout_marginTop="100dp"
         android:layout_centerHorizontal="true"
         android:text="Generate"
+        android:background="#EE9B43"
+        android:onClick="EditorInfo.IME_ACTION_DONE"
         android:id="@+id/gen_btn"/>
 
     <View
